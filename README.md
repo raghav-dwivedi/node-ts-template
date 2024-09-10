@@ -8,5 +8,10 @@ Features:
 - Basic setup for SQL database using Sequelize
 - cross-env for Windows/Mac/Linux support
 
+How to Setup:
+- Clone the repo and run npm i
+- Create .env.development and .env.production and add the variables declared in env.d.ts.
+- npm run dev to start local server.
+
 Future Plans:
 - Use Node's native support for Typescript once it's part of LTS.
