@@ -1,0 +1,17 @@
+{
+  "watch": [
+    "src",
+    ".env.development"
+  ],
+  "ext": "ts,js,json",
+  "ignore": [
+    "node_modules",
+    "src/**/*.spec.ts",
+    "coverage",
+    "dist"
+  ],
+  "exec": "ts-node ./src/utils/check-engine.ts && ts-node -r tsconfig-paths/register ./src/index.ts",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
